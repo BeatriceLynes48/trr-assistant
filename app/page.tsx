@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "I’ve bought a lot of The Row and Khaite. I like minimalist, structured pieces and neutral colors. Can you suggest something new?",
+  "I mostly shop Chanel and Celine. I like classic pieces but I want to branch out a little—what else should I try?",
+  "I tend to wear a lot of black and navy. Should I try color?",
 ];
 
 export default function Chat() {
@@ -86,14 +86,14 @@ export default function Chat() {
               Hi, I'm a fine tuned LLM.
             </h1>
             <p className="text-gray-500">
-              I'm part of a series of computational experiments taught by{" "}
+              I'm an experiment built by{" "}
               <a
                 href="https://linkin.bio/yallahalim/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                Halim Madi
+                Sam Khander
               </a>. I was built using{" "}
               <a
                 href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
